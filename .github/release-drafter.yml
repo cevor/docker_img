@@ -16,6 +16,10 @@ template: |
   ## Getting Python Docker Build Files
   Install with apt-get: install-packages.sh
   Install with pip: requirements.txt
+  ### create image
+  ```
+  docker build -t test .
+  ```
   Visit the repo at https://github.com/cevor/docker_img
   ## New in Vanilla v$NEXT_PATCH_VERSION
   $CHANGES
