@@ -13,8 +13,9 @@ categories:
     label: 'Maintenance 🔨'
 change-template: '- $TITLE (#$NUMBER)'
 template: |
-  ## Getting Vanilla Framework
-  Install with NPM: https://www.npmjs.com/package/vanilla-framework
-  Visit the documentation at https://docs.vanillaframework.io
+  ## Getting Python Docker Build Files
+  Install with apt-get: install-packages.sh
+  Install with pip: requirements.txt
+  Visit the repo at https://github.com/cevor/docker_img
   ## New in Vanilla v$NEXT_PATCH_VERSION
   $CHANGES
