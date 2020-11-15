@@ -12,6 +12,6 @@ LABEL email="info.cevor@gmail.com"
 COPY install-packages.sh .
 COPY --from=builder /install /usr/local
 
-RUN ./install-packages.sh
+RUN chmod u+x install-packages.sh && ./install-packages.sh
 
 CMD [ "bash" ]
