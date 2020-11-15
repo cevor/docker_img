@@ -17,7 +17,7 @@ apt-get update
 apt-get -y upgrade
 
 # Install a new package, without unnecessary recommended packages:
-apt-get -y install --no-install-recommends git curl libzmq3-dev sqlite3
+apt-get -y install --no-install-recommends libzmq3-dev sqlite3
 
 # Delete cached files we don't need anymore:
 apt-get clean

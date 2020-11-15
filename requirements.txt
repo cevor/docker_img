@@ -1,7 +1,2 @@
-pylint 
-yapf 
-mypy 
-pytest
-coverage
 pyzmq 
 SQLAlchemy
