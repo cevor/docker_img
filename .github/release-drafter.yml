@@ -1,0 +1,25 @@
+name-template: 'v$NEXT_PATCH_VERSION'
+tag-template: 'v$NEXT_PATCH_VERSION'
+categories:
+  - title: '🚀 Features'
+    label: 'Feature 🎁'
+  - title: '💣 Breaking Change'
+    label: 'Breaking Change 💣'
+  - title: '🐛 Bug Fixes'
+    label: 'Bug 🐛'
+  - title: '📝 Documentation'
+    label: 'Documentation 📝'
+  - title: '🔨 Maintenance'
+    label: 'Maintenance 🔨'
+change-template: '- $TITLE (#$NUMBER)'
+template: |
+  ## Getting Python Docker Build Files
+  Install with apt-get: install-packages.sh
+  Install with pip: requirements.txt
+  ### create image
+  ```
+  docker build -t test .
+  ```
+  Visit the repo at https://github.com/cevor/docker_img
+  ## docker image v$NEXT_PATCH_VERSION
+  $CHANGES
