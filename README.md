@@ -1,8 +1,9 @@
 # Python Docker Image
-This image has 340MB size and contain the following tools
+This image has 340MB size and contain the following tools.
+Download image via dockerhub registry
 
 ```
-docker build -t py-dev .
+docker docker pull cevor/python:latest
 ```
 
 ## Base Image
