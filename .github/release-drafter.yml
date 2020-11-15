@@ -2,7 +2,7 @@ name-template: 'v$RESOLVED_VERSION'
 tag-template: 'v$RESOLVED_VERSION'
 template: |
   # New Draft v$NEXT_PATCH_VERSION
-  # What's Changed
+  ## What's Changed
   $CHANGES
 categories:
   - title: 'Breaking'
