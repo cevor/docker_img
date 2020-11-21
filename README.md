@@ -5,6 +5,7 @@ Download image from dockerhub registry
 docker pull cevor/python:latest
 ```
 ## Image Detail
+- debian slim buster
 - Size: 165MB
 - Python: 3.8
 - Sqlite3: 3.31.1
