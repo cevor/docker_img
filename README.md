@@ -5,8 +5,8 @@ Download image from dockerhub registry
 docker pull cevor/python:latest
 ```
 ## Image Detail
-- debian slim buster
 - Size: 165MB
+- debian slim buster
 - Python: 3.8
 - Sqlite3: 3.31.1
 - libzmq3-dev [ZeroMQ]: 4.3.2
@@ -19,11 +19,11 @@ docker pull cevor/python:latest
 To run on production add user to your final image
 
 ```
-FROM cevor/python:0.1.2:latest
+FROM cevor/python:latest
 RUN useradd --create-home appuser
 WORKDIR /home/appuser
 USER appuser
-# your code here
+# copy your code here
 ```
 
 ## Installed packages
